@@ -47,6 +47,6 @@ Second, we logged in remotely to the Windows virtual machine using its IP addres
 <img src="https://i.imgur.com/OIGiIP5.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lastly, along with Wireshark we used the command-line interface on the Windows virtual machine to observe the network traffic. Using the Ubuntu virtual machine's private IP address, we used the ping command to observe ICMP traffic, the ipconfig command to observe DHCP traffic, the nslookup command to observe DNS traffic. We also observed SSH traffic by connecting to the Ubuntu virtual machine for a terminal session.
+Lastly, along with Wireshark we used the command-line interface on the Windows virtual machine to observe the network traffic. Using the Ubuntu virtual machine's private IP address, we used the ping command to observe ICMP traffic, the ipconfig command to observe DHCP traffic, the nslookup command to observe DNS traffic (as shown in the above two images). We also observed SSH traffic by connecting to the Ubuntu virtual machine for a terminal session.
 </p>
 <br />

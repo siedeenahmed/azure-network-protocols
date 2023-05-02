@@ -22,7 +22,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 - Create Azure Virtual Machines with Windows 10 and Ubuntu.
 - Remote into the Windows Virtual Machines and install Wireshark. 
-- Use Wireshark to observe ICMP, SSH, DHCP, DNS, and RDP traffic between the teo virtual machines.
+- Use Wireshark to observe ICMP, SSH, DHCP, DNS, and RDP traffic between the two virtual machines.
 
 <h2>Actions and Observations</h2>
 
@@ -30,22 +30,23 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <img src="https://i.imgur.com/aYGXwVM.png"/>
 </p>
 <p>
-First, we created two Azure Virtual Machines, one with Windows 10 and the other with Ubuntu. The image above shows the topology of this virtual network: both virtual machines along with their virtual network interfaces, virtual seurity groups 
+First, we created two Azure Virtual Machines, one with Windows 10 and the other with Ubuntu. The image above shows the topology of this virtual network: both virtual machines along with their virtual network interfaces, virtual network seurity groups, and IP addresses.
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/OVrSGf7.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Second, we logged in remotely to the Windows virtual machine using its IP address. This was done through Microsoft Remote Desktop on Mac OS. Once logged in, we installed Wireshark to be able to examine network traffic between the two virtual machines.
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/mmWar8f.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/OIGiIP5.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Lastly, along with Wireshark we used the command-line interface on the Windows virtual machine to observe the network traffic. Using the Ubuntu virtual machine's private IP address, we used the ping command to observe ICMP traffic, the ipconfig command to observe DHCP traffic, the nslookup command to observe DNS traffic. We also observed SSH traffic by connecting to the Ubuntu virtual machine for a terminal session.
 </p>
 <br />

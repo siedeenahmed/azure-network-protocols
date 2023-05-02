@@ -20,14 +20,14 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 <h2>High-Level Steps</h2>
 
-- Create two Azure Virtual Machines, one with Windows 10 and one with Ubuntu
-- Remote into the Windows Virtual Machines and download Wireshark 
-- Use Wireshark to observe ICMP, SSH, DHCP, DNS, and RDP traffic between the teo virtual machines
+- Create two Azure Virtual Machines, one with Windows 10 and one with Ubuntu.
+- Remote into the Windows Virtual Machines and download Wireshark. 
+- Use Wireshark to observe ICMP, SSH, DHCP, DNS, and RDP traffic between the teo virtual machines.
 
 <h2>Actions and Observations</h2>
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/aYGXwVM"/>
 </p>
 <p>
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
